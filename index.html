@@ -6,16 +6,20 @@
 en tykkää
 <button type="button" onclick="Klikkaus()" >klick this</button>
 <h1>what</h1>
-<img src="muna.png" alt="" id="munakuva">
-<p>basistit on <p id="number" > 0 </p> kertaa tyhmempiä kuin muusikot </p>
+<img onclick="Klikkaus()" src="muna.png" id="munakuva">
+<p>lol</p>
+<p><b>basistit</b> on <p id="number" > 0 </p> kertaa tyhmempiä kuin muusikot </p>
+
 <script>
     let klikkaukset = 0
+
     function Klikkaus(){
-        klikkaukset++
-        document.getElementById("number").innerHTML = klikkaukset
+    klikkaukset++
+         document.getElementById("number").innerHTML = klikkaukset
+
         if (klikkaukset > 5){
             document.getElementById("munakuva").src = "munarikki.png"
-            alert("stop")
+            alert("stop!!!!!!!!!")
         
         }
     }
